@@ -1,12 +1,13 @@
-def sum(x, y)
-   return x + y
-def subtract(x,y)
-    return x-y
+def sum(x, y):
+    return x + y
+
+def subtract(x, y):
+    return x - y
 
 
-prompt the user for their name
+##prompt the user for their name
 name = input("enter you name: ")
-prompt the user for their age
+#prompt the user for their age
 age = input("Enter your age:")
 
 print( name  + "'s age is:",age)
@@ -36,8 +37,8 @@ if num % check ==0:
 else:
     print(" The number does not divide evenly ")
 
-Lara's Code!
-Function to get a positive integer from the user
+#Lara's Code!
+#Function to get a positive integer from the user
 def get_positive_integer(prompt):
     while True:
         try:
